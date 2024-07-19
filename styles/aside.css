@@ -8,24 +8,19 @@ aside {
 }
 .title {
   font-size: 17px;
-  margin: 10px 0;
+  margin-bottom: 1rem;
 }
+
 label {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
 }
-.infos {
+.cont-aside {
   border-bottom: 1px solid black;
-  margin-bottom: 5px;
+  margin: auto;
+  padding-bottom: 1rem;
 }
-.techs {
-  border-bottom: 1px solid black;
-  margin-bottom: 5px;
-}
-.certificados {
-  border-bottom: 1px solid black;
-  margin-bottom: 5px;
-}
+
 .cont-info {
   display: flex;
   flex-direction: column;
@@ -43,5 +38,4 @@ ul {
 li {
   font-size: 16px;
   margin: 10px 0;
-  font-weight: bold;
 }

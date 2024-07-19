@@ -38,11 +38,10 @@ textarea {
 main {
   display: flex;
   width: 210mm;
-  /* max-width: 2480px; */
   height: 297mm;
-  /* max-height: 3508px; */
   aspect-ratio: 210 / 297;
   margin: auto;
+  position: relative;
 }
 a {
   text-decoration: none;

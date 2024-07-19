@@ -12,26 +12,38 @@ article {
   justify-content: center;
   font-size: 2rem;
 }
+
+.sub-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-left: 1.5rem;
+}
+.sub-title h3 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
 .containers {
   width: 100%;
   padding: 1.5rem;
+  padding-bottom: 0rem;
 }
 .titles h2 {
   margin-bottom: 1rem;
   background-color: #f0f0f0;
   width: 100%;
 }
-.cont-projects {
-  display: flex;
-  flex-direction: column;
-}
 .project {
   margin: 5px;
 }
+.containers ul li {
+  margin: 5px 0;
+}
 footer {
-  display: flex;
-  width: 100%;
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: 25%;
   align-items: center;
   flex-direction: column;
-  margin-top: 120px;
 }
