@@ -1,0 +1,50 @@
+@import url("./styles/aside.css");
+@import url("/styles/article.css");
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+a,
+input,
+textarea {
+  font-family: Arial, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  color: black;
+}
+.cont-info h3 {
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  width: 210mm;
+  /* max-width: 2480px; */
+  height: 297mm;
+  /* max-height: 3508px; */
+  aspect-ratio: 210 / 297;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  font-weight: 100;
+}

@@ -1,0 +1,37 @@
+article {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+.cont-name {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.containers {
+  width: 100%;
+  padding: 1.5rem;
+}
+.titles h2 {
+  margin-bottom: 1rem;
+  background-color: #f0f0f0;
+  width: 100%;
+}
+.cont-projects {
+  display: flex;
+  flex-direction: column;
+}
+.project {
+  margin: 5px;
+}
+footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+}
