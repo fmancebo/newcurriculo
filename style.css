@@ -1,9 +1,11 @@
 @import url("./styles/aside.css");
 @import url("/styles/article.css");
 
-html {
+body {
   box-sizing: border-box;
   font-size: 16px;
+  width: 100%;
+  height: auto;
 }
 
 *,
@@ -29,6 +31,7 @@ textarea {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
+  padding: 0;
   color: black;
 }
 .cont-info h3 {
