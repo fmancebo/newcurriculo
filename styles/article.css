@@ -39,11 +39,3 @@ article {
 .containers ul li {
   margin: 5px 0;
 }
-footer {
-  display: none;
-  position: absolute;
-  bottom: 10px;
-  right: 25%;
-  align-items: center;
-  flex-direction: column;
-}
