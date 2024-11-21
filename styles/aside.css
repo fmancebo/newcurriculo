@@ -10,6 +10,9 @@ aside {
   font-size: 17px;
   margin-bottom: 1rem;
 }
+.title h2 {
+  font-size: 1.5rem;
+}
 
 label {
   font-size: 17px;
